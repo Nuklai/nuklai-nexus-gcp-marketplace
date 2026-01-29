@@ -1,0 +1,14 @@
+apiVersion: marketing.cloud.google.com/v1alpha1
+kind: Application
+metadata:
+  name: nexus-ai
+spec:
+  displayName: Nexus AI
+  description: Nexus AI Platform Integration
+  category: DATA_ANALYTICS
+  solutionId: nexus-ai # Replace with actual solution ID from Partner Portal
+  deployment:
+    deployer:
+      image: gcr.io/nexus-458211/nexus/deployer:latest
+    # configuration:
+    #   schema: schema.yaml
