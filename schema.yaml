@@ -31,20 +31,15 @@ properties:
     description: The secret containing the reporting credentials.
     x-google-marketplace:
       type: REPORTING_SECRET
-  global:
-    type: object
-    title: Global Configuration
-    description: Configuration shared across all components.
-    properties:
-      domain:
-        type: string
-        title: Ingress Domain
-        description: The domain name to use for the ingress (e.g., api.example.com).
-      enableIngress:
-        type: boolean
-        title: Enable Ingress
-        description: Whether to enable Ingress and Managed Certificates.
-        default: true
+  domain:
+    type: string
+    title: Ingress Domain
+    description: The domain name to use for the ingress (e.g., api.example.com).
+  enableIngress:
+    type: boolean
+    title: Enable Ingress
+    description: Whether to enable Ingress and Managed Certificates.
+    default: true
 
 outputs:
   - name: manifest
