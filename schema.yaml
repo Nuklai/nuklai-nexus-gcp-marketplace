@@ -1,12 +1,8 @@
-info:
-  version: 1.0.0
-  title: Nexus AI Template
-  description: Nexus AI Platform Deployment
 
 x-google-marketplace:
   schemaVersion: v2
   applicationApiVersion: v1beta1
-  publishedVersion: 0.1.0
+  publishedVersion: 0.1.1
 
 required:
   - name
@@ -39,7 +35,3 @@ properties:
     title: Enable Ingress
     description: Whether to enable Ingress and Managed Certificates.
     default: true
-
-outputs:
-  - name: manifest
-    type: string
