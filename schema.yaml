@@ -3,15 +3,12 @@ x-google-marketplace:
   schemaVersion: v2
   applicationApiVersion: v1beta1
   publishedVersion: 0.1.1
+  publishedVersion: 0.1.1
   images:
-    nexus_backend:
-      name: gcr.io/nexus-458211/nexus/backend:latest
-    connector_service:
-      name: gcr.io/nexus-458211/nexus/connector_service:latest
-    data_stream_service:
-      name: gcr.io/nexus-458211/nexus/data_stream_service:latest
-    ubbagent:
-      name: gcr.io/cloud-marketplace-tools/metering/ubbagent:latest
+    nexus_backend: {}
+    connector_service: {}
+    data_stream_service: {}
+    ubbagent: {}
 
 required:
   - name
